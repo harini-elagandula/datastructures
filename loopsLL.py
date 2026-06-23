@@ -8,7 +8,7 @@ class LinkedList:
     def add_end(self, data):
         new = Node(data)
         if self.head is None:
-            self.head = new
+            self.head = new 
             return
         itr = self.head
         while itr.next:
